@@ -1,0 +1,19 @@
+{
+  "language": "typescript",
+  "languageOptions": {
+    "importExtension": ".js"
+  },
+  "app": "node --import tsx src/main.ts",
+  "output": "cdktn.out",
+  "projectId": "7ad21005-58e7-4d9f-88a0-83b940d86909",
+  "sendCrashReports": "false",
+  "targetVersions": {
+    "terraform": ">=1.5.7",
+    "opentofu": ">=1.6.0"
+  },
+  "terraformProviders": [
+    "hashicorp/aws@~> 6.61.0",
+    "kreuzwerker/docker@~> 4.5.0",
+    "upstash/upstash@~> 2.1.0"
+  ]
+}

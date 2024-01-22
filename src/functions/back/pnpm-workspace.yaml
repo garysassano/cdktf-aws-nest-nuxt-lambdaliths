@@ -1,0 +1,9 @@
+packages:
+  - "."
+
+# pnpm 11 refuses to run dependency build scripts unless they are listed here.
+# esbuild compiles its native binary on install and the build needs it.
+allowBuilds:
+  esbuild: true
+
+minimumReleaseAgeStrict: true

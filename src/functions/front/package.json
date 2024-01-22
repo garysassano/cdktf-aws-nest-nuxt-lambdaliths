@@ -1,0 +1,36 @@
+{
+	"name": "front",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint ."
+	},
+	"devDependencies": {
+		"@fontsource-variable/roboto-flex": "^5.1.1",
+		"@sveltejs/adapter-auto": "^3.3.1",
+		"@sveltejs/adapter-node": "^5.2.11",
+		"@sveltejs/kit": "^2.15.1",
+		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"@types/eslint": "^9.6.1",
+		"eslint": "^9.17.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.46.1",
+		"globals": "^15.14.0",
+		"prettier": "^3.4.2",
+		"prettier-plugin-svelte": "^3.3.2",
+		"svelte": "^5.16.1",
+		"svelte-check": "^4.1.1",
+		"typescript": "^5.7.2",
+		"typescript-eslint": "^8.19.0",
+		"vite": "^6.0.7"
+	},
+	"optionalDependencies": {
+		"@rollup/rollup-linux-arm64-gnu": "^4.29.2"
+	}
+}

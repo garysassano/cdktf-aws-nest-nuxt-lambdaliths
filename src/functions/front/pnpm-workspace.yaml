@@ -1,0 +1,11 @@
+packages:
+  - "."
+
+# pnpm 11 refuses to run dependency build scripts unless they are listed here.
+# @sveltejs/kit's install script runs `svelte-kit sync`, which generates the
+# types the build needs; esbuild compiles its native binary.
+allowBuilds:
+  "@sveltejs/kit": true
+  esbuild: true
+
+minimumReleaseAgeStrict: true

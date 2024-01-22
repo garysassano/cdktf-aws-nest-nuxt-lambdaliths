@@ -1,0 +1,21 @@
+node_modules/
+coverage/
+dist/
+*.zip
+logs/
+*.log
+*.tsbuildinfo
+
+# cdktn
+.gen/
+cdktn.out/
+cdktf.out/
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate.d/
+
+# env
+.env*
+!.env.example

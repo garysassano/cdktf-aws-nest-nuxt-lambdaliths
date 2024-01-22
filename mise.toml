@@ -1,0 +1,8 @@
+[tools]
+node = "24"
+opentofu = "1"
+pnpm = "11"
+
+[env]
+# cdktn-cli looks for a binary named `terraform` unless told otherwise
+TERRAFORM_BINARY_NAME = "tofu"
